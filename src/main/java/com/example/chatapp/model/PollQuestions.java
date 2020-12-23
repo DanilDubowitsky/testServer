@@ -44,8 +44,6 @@ public class PollQuestions {
         this.id = id;
     }
 
-
-
     public String getQuestionText() {
         return questionText;
     }

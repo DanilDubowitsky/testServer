@@ -32,8 +32,7 @@ public class Poll {
     public Poll() {
 
     }
-    public Poll(Long id,String pollName, Date startDate, Date endDate, Boolean activity, List<PollQuestions> pollQuestions) {
-        this.id = id;
+    public Poll(String pollName, Date startDate, Date endDate, Boolean activity, List<PollQuestions> pollQuestions) {
         this.pollName = pollName;
         this.startDate = startDate;
         this.endDate = endDate;
